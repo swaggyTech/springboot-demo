@@ -13,5 +13,6 @@
     <modules>
         <module>helloworld</module>
         <module>properties</module>
+        <module>actuator</module>
     </modules>
 </project>
