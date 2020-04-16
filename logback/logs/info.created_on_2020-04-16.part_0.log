@@ -1,0 +1,12 @@
+2020-04-16 15:13:01.129  INFO 49616 --- [main] com.demo.logback.LogbackApplication      : Starting LogbackApplication on Paul with PID 49616 (G:\coding\demo\logback\target\classes started by Paul in G:\coding\demo)
+2020-04-16 15:13:01.132  INFO 49616 --- [main] com.demo.logback.LogbackApplication      : No active profile set, falling back to default profiles: default
+2020-04-16 15:13:02.020  INFO 49616 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-04-16 15:13:02.030  INFO 49616 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-16 15:13:02.031  INFO 49616 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-16 15:13:02.149  INFO 49616 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/demo]   : Initializing Spring embedded WebApplicationContext
+2020-04-16 15:13:02.149  INFO 49616 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 974 ms
+2020-04-16 15:13:02.311  INFO 49616 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-16 15:13:02.470  INFO 49616 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/demo'
+2020-04-16 15:13:02.473  INFO 49616 --- [main] com.demo.logback.LogbackApplication      : Started LogbackApplication in 2.043 seconds (JVM running for 3.438)
+2020-04-16 15:13:02.474  INFO 49616 --- [main] com.demo.logback.LogbackApplication      : springboot启动初始化了126个bean
+2020-04-16 15:13:02.475  WARN 49616 --- [main] com.demo.logback.LogbackApplication      : springboot启动初始化了126个bean

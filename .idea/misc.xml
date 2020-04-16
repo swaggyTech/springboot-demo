@@ -8,6 +8,7 @@
         <option value="$PROJECT_DIR$/helloworld/pom.xml" />
         <option value="$PROJECT_DIR$/properties/pom.xml" />
         <option value="$PROJECT_DIR$/actuator/pom.xml" />
+        <option value="$PROJECT_DIR$/logback/pom.xml" />
       </list>
     </option>
   </component>

@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="logback" />
         <module name="properties" />
         <module name="helloworld" />
         <module name="actuator" />
@@ -16,6 +17,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="actuator" options="-parameters" />
       <module name="helloworld" options="-parameters" />
+      <module name="logback" options="-parameters" />
       <module name="properties" options="-parameters" />
     </option>
   </component>

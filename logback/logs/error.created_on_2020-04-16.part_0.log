@@ -1,0 +1,6 @@
+2020-04-16 15:13:02.475 ERROR 49616 --- [main] com.demo.logback.LogbackApplication      LogbackApplication.java:19: springboot启动初始化了126个bean
+2020-04-16 15:13:02.477 ERROR 49616 --- [main] com.demo.logback.LogbackApplication      LogbackApplication.java:24: 【springbootDemoLogbackApplication】启动异常：
+
+java.lang.ArithmeticException: / by zero
+	at com.demo.logback.LogbackApplication.main(LogbackApplication.java:22)
+
