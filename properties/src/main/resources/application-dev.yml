@@ -1,0 +1,8 @@
+application:
+  name: dev环境 @artifactId@
+  version: dev环境 @version@
+developer:
+  name: dev环境 swaggyTech
+  website: dev环境 http://github.swaggytech.io
+  qq: dev环境 ***
+  phone-number: dev环境 ******

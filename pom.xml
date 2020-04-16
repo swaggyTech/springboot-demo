@@ -10,4 +10,8 @@
     <packaging>pom</packaging>
 
 
+    <modules>
+        <module>helloworld</module>
+        <module>properties</module>
+    </modules>
 </project>

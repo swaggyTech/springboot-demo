@@ -1,0 +1,8 @@
+application:
+  name: prod环境 @artifactId@
+  version: prod环境 @version@
+developer:
+  name: prod环境 swaggyTech
+  website: prod环境 http://github.swaggytech.io
+  qq: prod环境 ***
+  phone-number: prod环境 ***
