@@ -2,13 +2,16 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="logback" />
-        <module name="properties" />
         <module name="helloworld" />
+        <module name="admin-server" />
+        <module name="logback" />
+        <module name="admin-client" />
+        <module name="properties" />
         <module name="actuator" />
       </profile>
     </annotationProcessing>
@@ -16,6 +19,8 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="actuator" options="-parameters" />
+      <module name="admin-client" options="-parameters" />
+      <module name="admin-server" options="-parameters" />
       <module name="helloworld" options="-parameters" />
       <module name="logback" options="-parameters" />
       <module name="properties" options="-parameters" />
