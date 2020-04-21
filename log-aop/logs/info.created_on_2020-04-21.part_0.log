@@ -1,0 +1,33 @@
+2020-04-21 17:12:05.320  INFO 17816 --- [main] com.demo.logaop.LogAopApplication        : Starting LogAopApplication on Paul with PID 17816 (G:\coding\demo\log-aop\target\classes started by Paul in G:\coding\demo)
+2020-04-21 17:12:05.323  INFO 17816 --- [main] com.demo.logaop.LogAopApplication        : No active profile set, falling back to default profiles: default
+2020-04-21 17:12:06.450  INFO 17816 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-04-21 17:12:06.458  INFO 17816 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-21 17:12:06.492  INFO 17816 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-21 17:12:06.613  INFO 17816 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/demo]   : Initializing Spring embedded WebApplicationContext
+2020-04-21 17:12:06.614  INFO 17816 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1217 ms
+2020-04-21 17:12:06.851  INFO 17816 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-21 17:12:07.040  INFO 17816 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/demo'
+2020-04-21 17:12:07.042  INFO 17816 --- [main] com.demo.logaop.LogAopApplication        : Started LogAopApplication in 2.321 seconds (JVM running for 4.37)
+2020-04-21 17:12:32.929  INFO 17816 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/demo]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-21 17:12:32.930  INFO 17816 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-21 17:12:32.940  INFO 17816 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2020-04-21 17:13:50.687  INFO 3228 --- [main] com.demo.logaop.LogAopApplication        : Starting LogAopApplication on Paul with PID 3228 (G:\coding\demo\log-aop\target\classes started by Paul in G:\coding\demo)
+2020-04-21 17:13:50.692  INFO 3228 --- [main] com.demo.logaop.LogAopApplication        : No active profile set, falling back to default profiles: default
+2020-04-21 17:13:51.656  INFO 3228 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-04-21 17:13:51.665  INFO 3228 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-21 17:13:51.665  INFO 3228 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-21 17:13:51.756  INFO 3228 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/demo]   : Initializing Spring embedded WebApplicationContext
+2020-04-21 17:13:51.757  INFO 3228 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1010 ms
+2020-04-21 17:13:52.018  INFO 3228 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-21 17:13:52.196  INFO 3228 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/demo'
+2020-04-21 17:13:52.198  INFO 3228 --- [main] com.demo.logaop.LogAopApplication        : Started LogAopApplication in 2.149 seconds (JVM running for 3.305)
+2020-04-21 17:13:55.213  INFO 3228 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/demo]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-21 17:13:55.214  INFO 3228 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-21 17:13:55.221  INFO 3228 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2020-04-21 17:13:55.251  INFO 3228 --- [http-nio-8080-exec-1] com.demo.logaop.aspectj.AopLog           : 【请求 URL】：http://localhost:8080/demo/test
+2020-04-21 17:13:55.252  INFO 3228 --- [http-nio-8080-exec-1] com.demo.logaop.aspectj.AopLog           : 【请求 IP】：0:0:0:0:0:0:0:1
+2020-04-21 17:13:55.280  INFO 3228 --- [http-nio-8080-exec-1] com.demo.logaop.aspectj.AopLog           : 【请求类名】：com.demo.logaop.controller.TestController，【请求方法名】：test
+2020-04-21 17:13:55.287  INFO 3228 --- [http-nio-8080-exec-1] com.demo.logaop.aspectj.AopLog           : 【请求参数】：{}，
+2020-04-21 17:13:55.309  INFO 3228 --- [http-nio-8080-exec-1] com.demo.logaop.aspectj.AopLog           : 【返回值】：{"who":"me"}
+2020-04-21 17:13:55.309  INFO 3228 --- [http-nio-8080-exec-1] com.demo.logaop.aspectj.AopLog           : 【请求耗时】：22毫秒
+2020-04-21 17:13:55.320  INFO 3228 --- [http-nio-8080-exec-1] com.demo.logaop.aspectj.AopLog           : 【浏览器类型】：CHROME8，【操作系统】：WINDOWS_10，【原始User-Agent】：Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36 Edg/81.0.416.58
