@@ -13,6 +13,7 @@
         <option value="$PROJECT_DIR$/admin-server/pom.xml" />
         <option value="$PROJECT_DIR$/jdbctemplate/pom.xml" />
         <option value="$PROJECT_DIR$/log-aop/pom.xml" />
+        <option value="$PROJECT_DIR$/exception-handler/pom.xml" />
       </list>
     </option>
   </component>

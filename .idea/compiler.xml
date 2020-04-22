@@ -12,6 +12,7 @@
         <module name="admin-server" />
         <module name="logback" />
         <module name="admin-client" />
+        <module name="exception-handler" />
         <module name="properties" />
         <module name="jdbctemplate" />
         <module name="actuator" />
@@ -23,6 +24,7 @@
       <module name="actuator" options="-parameters" />
       <module name="admin-client" options="-parameters" />
       <module name="admin-server" options="-parameters" />
+      <module name="exception-handler" options="-parameters" />
       <module name="helloworld" options="-parameters" />
       <module name="jdbctemplate" options="-parameters" />
       <module name="log-aop" options="-parameters" />
