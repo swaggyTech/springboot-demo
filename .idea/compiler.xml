@@ -16,6 +16,7 @@
         <module name="properties" />
         <module name="jdbctemplate" />
         <module name="actuator" />
+        <module name="orm-jpa" />
       </profile>
     </annotationProcessing>
   </component>
@@ -29,6 +30,7 @@
       <module name="jdbctemplate" options="-parameters" />
       <module name="log-aop" options="-parameters" />
       <module name="logback" options="-parameters" />
+      <module name="orm-jpa" options="-parameters" />
       <module name="properties" options="-parameters" />
     </option>
   </component>
