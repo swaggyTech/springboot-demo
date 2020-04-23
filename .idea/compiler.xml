@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="log-aop" />
         <module name="helloworld" />
+        <module name="orm-mybatis" />
         <module name="admin-server" />
         <module name="logback" />
         <module name="admin-client" />
@@ -31,6 +32,7 @@
       <module name="log-aop" options="-parameters" />
       <module name="logback" options="-parameters" />
       <module name="orm-jpa" options="-parameters" />
+      <module name="orm-mybatis" options="-parameters" />
       <module name="properties" options="-parameters" />
     </option>
   </component>

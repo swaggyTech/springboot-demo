@@ -15,6 +15,7 @@
         <option value="$PROJECT_DIR$/log-aop/pom.xml" />
         <option value="$PROJECT_DIR$/exception-handler/pom.xml" />
         <option value="$PROJECT_DIR$/orm-jpa/pom.xml" />
+        <option value="$PROJECT_DIR$/orm-mybatis/pom.xml" />
       </list>
     </option>
   </component>
