@@ -17,6 +17,7 @@
         <option value="$PROJECT_DIR$/orm-jpa/pom.xml" />
         <option value="$PROJECT_DIR$/orm-mybatis/pom.xml" />
         <option value="$PROJECT_DIR$/orm-mybatis-mapper-page/pom.xml" />
+        <option value="$PROJECT_DIR$/orm-mybatis-plus/pom.xml" />
       </list>
     </option>
   </component>

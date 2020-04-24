@@ -19,6 +19,7 @@
         <module name="jdbctemplate" />
         <module name="actuator" />
         <module name="orm-jpa" />
+        <module name="orm-mybatis-plus" />
       </profile>
     </annotationProcessing>
   </component>
@@ -35,6 +36,7 @@
       <module name="orm-jpa" options="-parameters" />
       <module name="orm-mybatis" options="-parameters" />
       <module name="orm-mybatis-mapper-page" options="-parameters" />
+      <module name="orm-mybatis-plus" options="-parameters" />
       <module name="properties" options="-parameters" />
     </option>
   </component>
