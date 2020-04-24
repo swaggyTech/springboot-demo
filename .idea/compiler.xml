@@ -14,6 +14,7 @@
         <module name="logback" />
         <module name="admin-client" />
         <module name="exception-handler" />
+        <module name="orm-mybatis-mapper-page" />
         <module name="properties" />
         <module name="jdbctemplate" />
         <module name="actuator" />
@@ -33,6 +34,7 @@
       <module name="logback" options="-parameters" />
       <module name="orm-jpa" options="-parameters" />
       <module name="orm-mybatis" options="-parameters" />
+      <module name="orm-mybatis-mapper-page" options="-parameters" />
       <module name="properties" options="-parameters" />
     </option>
   </component>
