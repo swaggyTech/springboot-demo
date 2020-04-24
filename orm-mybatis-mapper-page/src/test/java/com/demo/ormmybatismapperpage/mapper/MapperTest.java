@@ -126,7 +126,6 @@ public class MapperTest extends OrmMybatisMapperPageApplicationTests {
 
     /**
      * 测试通用Mapper - 条件查询
-     * 测试未通过 *****************************************************************************
      */
     @Test
     public void testQueryByCondition() {
@@ -142,7 +141,7 @@ public class MapperTest extends OrmMybatisMapperPageApplicationTests {
         //查询
         List<User> userList = userMapper.selectByExample(example);
         PageInfo<User> userPageInfo = new PageInfo<>(userList);
-        Assert.assertEquals(3, userPageInfo.getTotal());
+        Assert.assertEquals(3, userPageInfo.getSize());
         Assert.assertEquals(count, userPageInfo.getTotal());
         log.debug("【userPageInfo】={}", userPageInfo);
     }
